@@ -4,7 +4,13 @@ void setup() {
 void draw() {
     background(200, 200, 200);
     noStroke();
-    ellipse(150, 200, 150, 150);
-    ellipse(212, 200, 150, 150);
-    rect(176, 103, 12, 32);
+    fill(#2F7C1A);
+    rect(245, 103, 12, 32);
+    fill(#CB3E3E);
+    ellipse(219, 200, 150, 150);
+    ellipse(281, 200, 150, 150);
+    fill(#C8C8C8);
+    if(mousePressed) {
+    ellipse(146, 200, 30, 30);
+    }
 }
