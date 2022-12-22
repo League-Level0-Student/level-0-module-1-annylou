@@ -22,9 +22,16 @@ else {
 	JOptionPane.showMessageDialog(null, "wrong. the answer is a tongue");
 }
 		// 6. Add some more riddles
-
+String two = JOptionPane.showInputDialog("");
+if(two.equals("1")) {
+	score+=1;
+	JOptionPane.showMessageDialog(null, "correct");
+}
+else {
+	JOptionPane.showMessageDialog(null, "wrong. the answer is ");
+}
 		// 2. Make a pop up to show the score.
-		
+		JOptionPane.showMessageDialog(null, score);
 	}
 }
 
