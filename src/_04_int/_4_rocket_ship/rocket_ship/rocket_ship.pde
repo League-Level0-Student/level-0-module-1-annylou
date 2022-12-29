@@ -1,5 +1,5 @@
 int x = 400; 
-int y = 600; 
+int y = 50; 
 
 void setup() {
     size(800, 800);
