@@ -5,7 +5,6 @@ public static void main(String[] args) {
 
 int b = 0;
 int m = 0;
-int s = 0;
 int line = 1;
 
 while (line<=2) {

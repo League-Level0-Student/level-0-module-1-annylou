@@ -1,10 +1,16 @@
-int ice = 0; 
+int one = 0; 
+int x = 150;
+int y = 110;
 
+size (400,300); 
+textSize(20); 
 
-size (500,500); 
-textSize(50); 
+fill(#C61686);
+rect(0,0,400,400);
 
-for (ice=1; ice<=3; ice+=1) {
- text("ice cream", 150,90); 
- 
+fill(#FFFFFF);
+for (one=1; one<=3; one+=1) {
+ text("ice cream", x,y); 
+ y+=20;
 }
+text("banana", 150, 170);
